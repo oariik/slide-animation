@@ -1,0 +1,44 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.images {
+    background: yellow;
+    flex: 0 0 80%;
+    min-height: 70vh;
+    background:url('img/bcg-0.png');
+    border-radius: 15px;
+    position: relative;
+}
+
+.btn {
+    display: inline-block;
+    background: gray;
+    color: white;
+    font-size : 1.7rem;
+    padding: 0.5rem;
+    border-radius: 20%;
+    outline: none;
+}
+
+.prevBtn {
+    position: absolute;
+    top : 50% ;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.nextBtn {
+    position: absolute;
+    top : 50% ;
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+.btn:hover {
+    background: black;
+}
